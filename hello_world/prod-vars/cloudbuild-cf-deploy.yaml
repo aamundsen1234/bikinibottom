@@ -14,6 +14,5 @@ steps:
     '--memory', '1024MB',
     '--timeout', '540s',
     '--service-account', '${_CF_SERVICE_ACCOUNT_EMAIL}',
-    '--source', 'hello_world',
     '--project', '${_CF_PROJECT}'
     ]
