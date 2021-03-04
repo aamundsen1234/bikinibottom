@@ -9,10 +9,10 @@ steps:
     #'--trigger-bucket', 'name-of-bucket',
     #'--trigger-http',
     #'--trigger-event', 'event-type',
-    #'-trigger-resource', 'resource (monitored resource for trigger-event)'
+    #'-trigger-resource', 'resource (monitored resource for trigger-event)',
     '--entry-point', '${_ENTRY_POINT}',
     '--memory', '1024MB',
     '--timeout', '540s',
-    '--service-account', '${_CF_SERVICE_ACCOUNT_EMAIL}'
+    '--service-account', '${_CF_SERVICE_ACCOUNT_EMAIL}',
     '--project', '${_CF_PROJECT}'
     ]
